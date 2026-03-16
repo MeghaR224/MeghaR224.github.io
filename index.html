@@ -196,34 +196,44 @@
 
 
 
+<!--
+  - #ABOUT
+-->
+<article class="about  active" data-page="about">
 
-      <!--
-        - #ABOUT
-      -->
+  <header>
+    <h2 class="h2 article-title">About me</h2>
+  </header>
 
-      <article class="about  active" data-page="about">
+  <section class="about-text">
+    <p>
+      I'm Megha, a senior at UCLA who is interested in data science, statistics, and any adjacent fields.
+    </p>
+    <p>
+      My expected graduation date is June 2026, and my major is Statistics and Data Science.
+    </p>
+  </section>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+  <!--  keeping modal so script.js doesn't break  -->
+  <div class="modal-container" data-modal-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-modal">
+      <button class="modal-close-btn" data-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <div class="modal-img-wrapper">
+        <figure class="modal-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+        </figure>
+      </div>
+      <div class="modal-content">
+        <h4 class="h3 modal-title" data-modal-title></h4>
+        <div data-modal-text><p></p></div>
+      </div>
+    </section>
+  </div>
 
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
-
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
-
-      </article>
+</article>
 
 
 
